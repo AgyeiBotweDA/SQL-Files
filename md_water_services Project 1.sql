@@ -1,7 +1,7 @@
 -- 1. Getting to know the data --
 USE md_water_services;
 
-##Looking at what each Table represent --
+-- Looking at what each Table represent --
 SHOW tables;
 
 -- Looking at location Table 
@@ -33,7 +33,7 @@ FROM water_source
 WHERE source_id IN ("AkKi00881224", "SoRu37635224", "SoRu36096224", "AkRu05234224",
 "HaZa21742224");
 
-##Finding the water quality table --
+-- Finding the water quality table --
 SELECT *
 FROM water_quality;
 
