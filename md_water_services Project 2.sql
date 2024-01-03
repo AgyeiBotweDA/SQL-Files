@@ -1,4 +1,4 @@
-USE md_water_services;
+
 
 -- Getting familiar with the Tables
 SELECT*
